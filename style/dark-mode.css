@@ -1,0 +1,88 @@
+body:has(input[type="checkbox"]:checked) .white-color-font,
+body:has(input[type="checkbox"]:checked) .links a:hover,
+body:has(input[type="checkbox"]:checked):has(.home:target) .links li:nth-child(2) a,
+body:has(input[type="checkbox"]:checked):has(.chefs:target) .links li:nth-child(3) a,
+body:has(input[type="checkbox"]:checked):has(.gallery:target) .links li:nth-child(4) a,
+body:has(input[type="checkbox"]:checked):has(.contact:target) .links li:nth-child(5) a {
+    color: var(--white-color);
+}
+
+body:has(input[type="checkbox"]:checked) .back-dark {
+    background-color: var(--background-dark-first);
+}
+
+body:has(input[type="checkbox"]:checked):has(#open:target) .layer {
+    --co: 0;
+    --rgba: 0.7;
+}
+
+body:has(input[type="checkbox"]:checked) .back-dark-two,
+body:has(input[type="checkbox"]:checked) :is(nav h1, .links a)::after,
+::selection,
+body:has(input[type="checkbox"]:checked) .circule::after,
+body:has(input[type="checkbox"]:checked) :is(.title :not(.title span:first-child) :not(.title h2)),
+body:has(input[type="checkbox"]:checked) .detailses i , 
+body:has(input[type="checkbox"]:checked) .inputs button ,
+body:has(input[type="checkbox"]:checked) footer :is(div.search button , footer .foot-sec:nth-child(3) i){
+    --primary-hue: 35;
+    --primary-lightness: 44%;
+    --primary-saturation: 72%;
+}
+
+body:has(input[type="checkbox"]:checked) h1::after,
+body:has(input[type="checkbox"]:checked) .circule::after,
+body:has(input[type="checkbox"]:checked) :is(.title :not(.title span:first-child) :not(.title h2)) ,
+body:has(input[type="checkbox"]:checked) footer .foot-sec:nth-child(3) i{
+    color: hsl(var(--primary-hue), var(--primary-saturation), var(--primary-lightness)) !important;
+}
+
+body:has(input[type="checkbox"]:checked) .links a::after,
+body:has(input[type="checkbox"]:checked) ::selection,
+body:has(input[type="checkbox"]:checked) .back-dark-two,
+body:has(input[type="checkbox"]:checked) .circule::after,
+body:has(input[type="checkbox"]:checked) .detailses i,
+body:has(input[type="checkbox"]:checked) .inputs button ,
+body:has(input[type="checkbox"]:checked) footer div.search button{
+    background-color: hsl(var(--primary-hue), var(--primary-saturation), var(--primary-lightness));
+}
+
+body:has(input[type="checkbox"]:checked) .black-back {
+    background-color: var(--black-color);
+}
+
+body:has(input[type="checkbox"]:checked) :is(.black-back-two, .gallery) {
+    background-color: var(--background-for-dark);
+}
+
+body:has(input[type="checkbox"]:checked) .black-color-third {
+    color: var(--color-third);
+}
+
+body:has(input[type="checkbox"]:checked) :is(path, .title-box-item) {
+    background-color: #171717;
+    fill: #171717;
+}
+
+body:has(input[type="checkbox"]:checked) .title-box-item :is(p, span) {
+    color: #747474;
+}
+
+body:has(input[type="checkbox"]:checked) .chefs {
+    background-color: var(--background-dark-first);
+}
+
+body:has(input[type="checkbox"]:checked) .detailses {
+    background-color: #0D0D0D;
+}
+
+body:has(input[type="checkbox"]:checked) .detailses h3 {
+    color: #ADADAD;
+}
+
+body:has(input[type="checkbox"]:checked) .detailses div span {
+    color: #F6F6F6;
+}
+
+body:has(input[type="checkbox"]:checked) .inputs {
+    background-color: #171717;
+}

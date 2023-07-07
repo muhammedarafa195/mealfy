@@ -1,0 +1,107 @@
+@media (min-width: 576px) {
+    .container{
+        width: 565px !important;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        width: 750px !important;
+    }
+    .chefs .item-box,.gallery .items-gallery{
+        flex-basis:calc(100% / 2) ;
+    }
+    .gallery .container{
+        justify-content: flex-end;
+    }
+    .contact-details .detailses{
+        flex-basis:calc(99% / 2);
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        width: 960px !important;
+    }
+    header , .img{
+        width: 40%;
+    }
+    .home{
+        height: calc(100vh - 91.5px);
+    }
+    .book-watch{
+        margin: 0;
+        width: auto;
+
+    }
+    .home{
+        text-align: left;
+    }
+    .chefs .item-box,.gallery .items-gallery{
+        flex-basis:calc(100% / 3) ;
+    }
+     .inputs .wid-6{
+        flex-basis: calc(99% / 2);
+    }
+    .inputs .wid-12{
+        flex-basis: 100%;
+
+    }
+    footer :is(.foot-sec:first-child,.foot-sec:nth-child(3)){
+        flex-basis: calc(100% / 2);
+    }
+    footer .foot-sec:nth-child(3){
+        order: -1;
+    }
+    footer .container .foot-sec:nth-child(2){
+        flex-grow: 1;
+        padding: 0 15px 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        width: 1150px !important;
+    }
+    .aside-button{
+        display: none;
+    }
+        .links {
+            display: flex;
+            align-items: center;
+            flex-direction:row !important ;
+            flex-direction: row ;
+            transform: translateX(0) !important;
+            background-color: transparent !important;
+
+        }
+        .layer{
+            position: static;
+            z-index: 0;
+            display: block;
+        }
+        .layer,.links{
+            padding: 0;
+            width: auto;
+            height: auto;
+        }
+        .links li:first-child{
+            display: none;
+        }
+        footer :is(.foot-sec:first-child,.foot-sec:nth-child(3)){
+            width: calc(100% / 3.5);
+        }
+        footer .container .foot-sec:nth-child(2){
+            flex-grow: 1;
+            padding: 0 15px 10px;
+        }
+        footer .container{
+            flex-wrap: nowrap;
+        }
+        footer .foot-sec:nth-child(3){
+            order: 0;
+        }
+     
+}
+@media (min-width: 1400px) {
+    .container{
+        width: 1350px !important;
+    }
+}
